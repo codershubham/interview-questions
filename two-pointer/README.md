@@ -6,12 +6,12 @@ For ex.
 
 1. Container with most water
 https://leetcode.com/problems/container-with-most-water/description/
-Solution: here we will take two pointers, left and right where left will be 0 and right will be n -1 initially
-and these two will be keep moving towards each other until they will overlap
-and at each iteration will be keeping the best(height as well as area)
+
+Solution: here we will take two pointers, left and right where left will be 0 and right will be n -1 initially and these two will be keep moving towards each other until they will overlap and at each iteration will be keeping the best(height as well as area).
 
 2. 3Sum
 https://leetcode.com/problems/3sum/submissions/1781580672/
+
 Solution: here we will iterate the array from start to end
 i 0 ... n
 we will take two pointers left and right
