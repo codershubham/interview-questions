@@ -20,4 +20,7 @@ for each iteration
 
 and also we will be keep skipping the duplicates while moving to next element
 
+3. Trapping Rain water problem
+https://leetcode.com/problems/trapping-rain-water/description/
 
+Idea is to start with two pointers left and right and also keep tracking max_left and max_right and then keep moving towards smaller one as we know the other one is bigger one. For ex. if left is the smaller one then check if this is the max height on left if yes then replace if no then calc sum by subtracting height[left] from max_left, keeping in might that right pointer currenlty is greater than max_left, so it is safe to compare it with max_left. Solution is on leetcode
