@@ -12,7 +12,8 @@ int main() {
         p1[i] = 'A';
     }
     for(int i = 0; i < 200; i++) {
-        p2[i] = 'B';
+        p2[i] = 'B';+
+        
     }
 
     // Free one block and forget to free the other to simulate a leak
